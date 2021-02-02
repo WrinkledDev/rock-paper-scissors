@@ -135,8 +135,26 @@
 }
 
 @media only screen and (max-width: 300px) {
+  .title {
+    font-size: 1.1em;
+  }
+
   .icons {
-    margin: 10px 0px 10px 0px;
     font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .title {
+    font-size: 0.8em;
+  }
+
+  .icons {
+    font-size: 1.5em;
+  }
+
+  .updated-results,
+  .score {
+    font-size: 0.8em;
   }
 }
