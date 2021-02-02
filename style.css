@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgba(246, 231, 203, 1);
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.container {
+  /* background-color: rgb(93, 91, 172); */
+  background-color: #3d314a;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.icons {
+  font-size: 5em;
+  padding: 0.5em;
+  color: rgba(246, 231, 203, 0.4);
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: rgba(246, 231, 203, 1);
+}
+
+/* .rock-icon:hover {
+  color: rgb(220, 20, 60);
+}
+
+.paper-icon:hover {
+  color: rgba(230, 230, 45, 0.877);
+}
+
+.scissors-icon:hover {
+  color: rgb(0, 128, 0);
+} */
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score,
+.updated-results,
+.game-over-text {
+  font-size: 1.8em;
+}
+
+.score,
+.game-over-text {
+  padding: 20px;
+}
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: rgba(218, 98, 125, 1);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: rgba(218, 98, 125, 0.9);
+}
